@@ -22,5 +22,30 @@
     <p>LIGHT MODE</p>
     <p>DARK MODE</p>
   </footer>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDgn0lo3fLZiI4qOVc6sVzLxfTxrxqqMXE",
+    authDomain: "timelines-5a905.firebaseapp.com",
+    databaseURL: "https://timelines-5a905.firebaseio.com",
+    projectId: "timelines-5a905",
+    storageBucket: "timelines-5a905.appspot.com",
+    messagingSenderId: "525351324557",
+    appId: "1:525351324557:web:b348feeaefbf36e4148bc4",
+    measurementId: "G-1SG0Y7YQ9T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
