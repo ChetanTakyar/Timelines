@@ -1,10 +1,10 @@
 div h1 {
-display: inline-block;
 
-font-size: 30px;
+
+font-size: 25px;
 color: rgb(11, 135, 250);
 text-align: center;
-text-transform: none;
+
 margin: 0 20px;
 opacity: 1;
 animation: fadeIn ease 6s;
@@ -39,5 +39,11 @@ animation: fadeIn ease 6s;
 div h2
 {
     color: rgb(11, 135, 250);
+    font-size: 20px;
     text-align: center;
+
+    margin: 0 20px;
+    opacity: 1;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
 }
