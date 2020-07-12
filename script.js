@@ -1,45 +1,28 @@
-window.onload = play();
-document.getElementById('tryAgain').addEventListener('click', () => { play() });
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-function play() {
-	var blue = '#2980b9';
-	var l = Snap('#logo');
-	var p = l.select('path');
-  l.clear();
-	l.append(p);
-
-	p.attr({
-		fill: blue,
-		stroke: '#0066CC',
-	});
-
-	setTimeout( function() {
-		// modify this one line below, and see the result !
-		var logoTitle = 'alticreation';
-		var logoRandom = '';
-		var logoTitleContainer = l.text(0, '98%', '');
-		var possible = "-+*/|}{[]~\\\":;?/.><=+-_)(*&^%$#@!)}";
-		logoTitleContainer.attr({
-			fontSize: 280,
-			fontFamily: 'Dosis',
-			fontWeight: '600'
-		});
-
-		function generateRandomTitle(i, logoRandom) {
-			setTimeout( function() {
-				logoTitleContainer.attr({ text: logoRandom });
-			}, i*70 );
-		}
-
-		for( var i=0; i < logoTitle.length+1; i++ ) {
-			logoRandom = logoTitle.substr(0, i);
-			for( var j=i; j < logoTitle.length; j++ ) { 
-				logoRandom += possible.charAt(Math.floor(Math.random() * possible.length)); 
-			}
-			generateRandomTitle(i, logoRandom);
-			logoRandom = '';
-		}
-
-	}, 500 );
-
-}
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
