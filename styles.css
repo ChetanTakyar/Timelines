@@ -41,8 +41,8 @@ div h1
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
 }
 div h2
 {
@@ -52,8 +52,8 @@ div h2
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
 }
 
 hr
@@ -65,7 +65,7 @@ hr
 .ml6 {
     position: relative;
     font-weight: 900;
-    font-size: 3.3em;
+    font-size: 3em;
   }
   
   .ml6 .text-wrapper {

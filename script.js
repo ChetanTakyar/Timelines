@@ -7,11 +7,11 @@ anime.timeline({loop: false})
     targets: '.ml6 .letter',
     translateY: ["1.1em", 0],
     translateZ: 0,
-    duration: 750,
+    duration: 1400,
     delay: (el, i) => 50 * i
   }).add({
     targets: '.ml6',
-    opacity: 0,
+    opacity: 1,
     duration: 1000,
     easing: "easeOutExpo",
     delay: 1000
