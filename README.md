@@ -1,5 +1,4 @@
 # Timelines
 
-This is a simple website to showcase historical dates between iOS beta releases and predictions for iOS 14 betas
+This is a simple website to showcase iOS releases and patch notes with the use of a Timeline. 
 
-TESTING MARK'S FIRST PUSH
