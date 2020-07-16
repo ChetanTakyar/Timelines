@@ -41,8 +41,8 @@ div h1
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
 }
 div h2
 {
@@ -52,8 +52,8 @@ div h2
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
 }
 
 hr
