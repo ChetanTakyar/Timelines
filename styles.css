@@ -32,18 +32,18 @@
 
 /*STYLES*/
 
-div h1 
+
+div h1
 {
-    font-size: 25px;
     color: rgb(11, 135, 250);
+    font-size: 25px;
     text-align: center;
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
 }
-
 div h2
 {
     color: rgb(11, 135, 250);
@@ -52,8 +52,8 @@ div h2
 
     margin: 0 20px;
     opacity: 1;
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
 }
 
 hr
@@ -61,3 +61,23 @@ hr
     background-color: rgb(11, 135, 250);
     height: 1px;
 }
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
