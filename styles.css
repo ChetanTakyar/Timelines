@@ -1,7 +1,16 @@
 :root
 {
-    --blue: rgb(11, 135, 250);
+  --blue: #2191FB;
+  --darkBlue: #0474DC;
+  --darkGrey: #121212;
+  --darkerGrey: #292929;
+  --lightGrey: #757F95;
+  --orange: #DD6E42;
 }
+
+/*
+OLD BACKGROUND : 474e5d
+*/
 
 /*ANIMATIONS*/
 
@@ -97,7 +106,7 @@ hr
   
   /* Set a background color */
   body {
-    background-color: #474e5d;
+    background-color: var(--darkGrey);
     font-family: Helvetica, sans-serif;
   }
   
@@ -161,9 +170,9 @@ hr
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid var(--darkerGrey);
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent var(--darkerGrey);
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -175,9 +184,9 @@ hr
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid var(--darkerGrey);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent var(--darkerGrey) transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -188,10 +197,14 @@ hr
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: var(--darkerGrey);
     position: relative;
     border-radius: 6px;
   }
+
+  /*.content h2 {
+    color: var(--darkBlue);
+  }*/
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
