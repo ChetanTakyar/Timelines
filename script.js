@@ -21,3 +21,8 @@ anime
 		easing: "easeOutExpo",
 		delay: 1000,
 	});
+
+  function lightMode(){
+    const lightModeToggle = document.main;
+    lightModeToggle.classList.toggle("light-mode");
+  }
