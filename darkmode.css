@@ -2,6 +2,7 @@
 	--primaryColour: #0474dc;
 	--backgroundColour: #292929;
 	--accentColour: #dd6e42;
+	--headerAndFooterColour: #012A36;
 }
 
 body {
@@ -17,4 +18,12 @@ h3 {
 	font-family: Helvetica;
 	font-weight: 800;
 	text-align: center;
+}
+
+header{
+	background-color: var(--headerAndFooterColour);
+}
+
+footer{
+	background-color: var(--headerAndFooterColour);
 }
