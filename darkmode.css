@@ -7,7 +7,9 @@
 body {
 	background-color: var(--backgroundColour);
 }
-
+p{
+	color: white;
+}
 h1,
 h2,
 h3 {
