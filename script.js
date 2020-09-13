@@ -1,4 +1,3 @@
-
-  function lightMode(){
+function lightMode(){
    
-  }
+}
