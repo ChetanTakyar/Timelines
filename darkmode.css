@@ -1,0 +1,17 @@
+:root {
+	--primaryColour: #0474dc;
+	--backgroundColour: #292929;
+	--accentColour: #dd6e42;
+}
+
+body {
+	background-color: var(--backgroundColour);
+}
+
+h1,
+h2,
+h3 {
+	color: var(--primaryColour);
+	font-family: Helvetica;
+	font-weight: 800;
+}
