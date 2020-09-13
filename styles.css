@@ -13,6 +13,8 @@ body{
 }
 h1,h2,h3{
 	color: var(--blue);
+	font-family: Helvetica;
+	font-weight: 800;
 }
 .dark-mode{
 	background-color: var(--darkerGrey);
