@@ -3,20 +3,40 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" href="lightmode.css" id="theme-type" />
+		<link rel="alternate stylesheet" href="darkmode.css" id="theme-type" />
+
 		<script defer="true" src="script.js"></script>
 		<title>Timelines</title>
 	</head>
-	<div class="container">
-		<header><h1>Timelines</h1></header>
-		<body>
-			<p>Test of the light and dark mode</p>
-		</body>
-
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark">
+			<!-- Links -->
+			<ul class="navbar-nav">
+				<li class ="nav-item">
+					<h1 class="navbar-brand " href="#">Timelines</h1>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">iOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">macOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">watchOS</a>
+				</li>
+			</ul>
+		</nav>
+		<main></main>
 		<footer>
-			<button id="dark-mode-toggle" onclick="DarkModeToggle()">
-				Toggle For Dark Mode
-			</button>
+			<button id="dark-mode-toggle" onclick="DarkModeToggle()">Toggle</button>
 		</footer>
-	</div>
+	</body>
 </html>
