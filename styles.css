@@ -7,3 +7,32 @@
   --orange: #dd6e42;
 }
 
+#timeline {
+  position: relative;
+  margin: 50px auto;
+  padding: 40px auto;
+  width: 1000px;
+}
+
+#timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: #c5c5c5;
+}
+
+#timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+#timeline ul li {
+  line-height: normal; 
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box  ;
+}
