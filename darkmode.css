@@ -2,7 +2,6 @@
 	--primaryColour: #0474dc;
 	--backgroundColour: #292929;
 	--accentColour: #dd6e42;
-	--headerAndFooterColour: #012a36;
 }
 
 body {
@@ -20,6 +19,6 @@ h3 {
 	text-align: center;
 }
 
-.nav-link{
+.nav-link {
 	color: var(--primaryColour);
 }
