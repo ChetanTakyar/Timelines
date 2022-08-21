@@ -76,6 +76,7 @@ footer {
 	height: 60px; 
 	position: fixed; 
 	top: 0;
+	z-index: 1;
 	}
 
 .ccsticky-nav ul {
@@ -83,11 +84,13 @@ footer {
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+	z-index: 1;
 	}
 		
 .ccsticky-nav ul li {
 	display: inline-block;
 	margin: 0 10px;
+	z-index: 1;
 	}
 		
 .ccsticky-nav ul li a {
@@ -97,4 +100,5 @@ footer {
 	text-decoration: none;
 	font-weight: bold;
 	transition: all 0.2s ease;
+	z-index: 1;
 	}
