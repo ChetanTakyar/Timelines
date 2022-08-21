@@ -102,3 +102,7 @@ footer {
 	transition: all 0.2s ease;
 	z-index: 1;
 	}
+
+.darkModeButton button{
+	border-radius: 15px;
+	}
