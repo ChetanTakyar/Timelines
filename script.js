@@ -1,12 +1,13 @@
-var themeLight;
+const theme = document.querySelector("#theme-type");
+theme.href = localStorage.getItem("theme");
+
 function DarkModeToggle() {
-	const theme = document.querySelector("#theme-type");
 	if (theme.getAttribute("href") == "lightmode.css") {
 		theme.href = "darkmode.css";
-		themeLight = false;
+		localStorage.setItem("theme", "darkmode.css")
 	} else {
 		theme.href = "lightmode.css";
-		themeLight = true;
+		localStorage.setItem("theme", "lightmode.css")
 	}
 }
 
