@@ -23,14 +23,32 @@ header {
 }
 
 #navbar {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 }
 
+.nav-item {
+	padding: 0 15px;
+}
+
+.navbar-brand {
+	margin: 0;
+}
+
 .nav-link {
-	color: var(--primaryColour);
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.darkModeButton {
+	border-radius: 15px;
+	margin: 0 30px;
 }
 
 #timeline {
@@ -77,8 +95,4 @@ header {
 
 footer {
 	background-color: var(--headerAndFooterColour);
-}
-
-.darkModeButton button {
-	border-radius: 15px;
 }
