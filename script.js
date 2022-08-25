@@ -1,5 +1,8 @@
 const theme = document.querySelector("#theme-type");
-theme.href = localStorage.getItem("theme");
+
+if (localStorage.getItem("theme") == null) {
+	theme.href = "lightmode.css"
+} else theme.href = localStorage.getItem("theme");
 
 function DarkModeToggle() {
 	if (theme.getAttribute("href") == "lightmode.css") {
