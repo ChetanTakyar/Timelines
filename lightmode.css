@@ -48,6 +48,7 @@ header {
 .darkModeButton {
 	border-radius: 15px;
 	margin: 0 30px;
+	border: none;
 }
 
 #timeline {
