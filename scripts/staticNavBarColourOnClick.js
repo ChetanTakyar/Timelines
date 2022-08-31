@@ -1,0 +1,15 @@
+function changeWatchOSColourOnClick(){
+    document.getElementsByID("watchOSPage").style.color = "#4169e1";
+}
+
+function changeMacOSColourOnClick(){
+    document.getElementsByID("macOSPage").style.color = "#4169e1";
+}
+
+function changetvOSColourOnClick(){
+    document.getElementsByID("tvOSPage").style.color = "#4169e1";
+}
+
+function changeiOSColourOnClick(){
+    document.getElementsByID("iOSPage").style.color = "#4169e1";
+}
