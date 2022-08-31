@@ -97,3 +97,18 @@ header {
 footer {
 	background-color: var(--headerAndFooterColour);
 }
+
+#scrollToTop button{
+	display: none;
+	border: none;
+	outline: none;
+	bottom: 20px;
+	right: 30px;
+	margin: 15px;
+	z-index: 2;
+	background-color: var(--primaryColour);
+	border-radius: 15px;
+	color: white;
+	padding: 15px;
+	cursor: pointer;
+}
