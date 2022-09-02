@@ -1,11 +1,12 @@
-const watchOSPage = document.getElementsByID("watchOSPage");
+/*
+const watchOSPage = document.getElementById("watchOSPage");
 const macOSPage = document.getElementById("macOSPage");
 const tvOSPage = document.getElementById("tvOSPage");
-const iOSPage =  document.getElementsByID("iOSPage");
+const iOSPage =  document.getElementById("iOSPage");
 const iPadOSPage = document.getElementById("iPadOSPage");
 
 
-function changeWatchOSColourOnClick(){
+function changewatchOSColourOnClick(){
 
     watchOSPage.classList.add("activeTab");
     macOSPage.classList.remove("activeTab");
@@ -15,7 +16,7 @@ function changeWatchOSColourOnClick(){
 
 }
 
-function changeMacOSColourOnClick(){
+function changemacOSColourOnClick(){
 
     macOSPage.classList.add("activeTab");
     watchOSPage.classList.remove("activeTab");
@@ -44,10 +45,11 @@ function changeiOSColourOnClick(){
    iPadOSPage.classList.remove("activeTab");
 }
 function changeiPadOSColourOnClick(){
-    
+
     iPadOSPage.classList.add("activeTab")
     iOSPage.classList.remove("activeTab");
     watchOSPage.classList.remove("activeTab");
     macOSPage.classList.remove("activeTab");
     tvOSPage.classList.remove("activeTab");
  }
+ */
