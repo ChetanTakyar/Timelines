@@ -1,16 +1,36 @@
+const watchOSPage = document.getElementsByID("watchOSPage");
+const macOSPage = document.getElementById("macOSPage");
+const tvOSPage = document.getElementById("tvOSPage");
+const iOSPage =  document.getElementsByID("iOSPage");
+
+
+
+
 function changeWatchOSColourOnClick(){
-    let watchOSPage = document.getElementsByID("watchOSPage");
     watchOSPage.classlist.add("activeTab");
+    macOSPage.classList.remove("activeTab");
+    tvOSPage.classList.remove("activeTab");
+    iOSPage.classList.remove("activeTab");
 }
 
 function changeMacOSColourOnClick(){
-    document.getElementsByID("macOSPage").style.color = "#4169e1";
+    macOSPage.classList.add("activeTab");
+    watchOSPage.classList.remove("activeTab");
+    tvOSPage.classList.remove("activeTab");
+    iOSPage.classList.remove("activeTab");
+
 }
 
 function changetvOSColourOnClick(){
-    document.getElementsByID("tvOSPage").style.color = "#4169e1";
+    tvOSPage.classList.add("activeTab");
+    watchOSPage.classList.remove("activeTab");
+    iOSPage.classList.remove("activeTab");
+    macOSPage.classList.remove("activeTab");
 }
 
 function changeiOSColourOnClick(){
-    document.getElementsByID("iOSPage").style.color = "#4169e1";
+   iOSPage.classList.add("activeTab");
+   watchOSPage.classList.remove("activeTab");
+   macOSPage.classList.remove("activeTab");
+   tvOSPage.classList.remove("activeTab");
 }
