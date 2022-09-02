@@ -114,3 +114,7 @@ footer {
 	padding: 15px;
 	cursor: pointer;
 }
+
+.activeTab{
+	color: var(--primaryColour);
+}
