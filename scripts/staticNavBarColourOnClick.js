@@ -1,5 +1,6 @@
 function changeWatchOSColourOnClick(){
-    document.getElementsByID("watchOSPage").style.color = "#4169e1";
+    let watchOSPage = document.getElementsByID("watchOSPage");
+    watchOSPage.classlist.add("activeTab");
 }
 
 function changeMacOSColourOnClick(){

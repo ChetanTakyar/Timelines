@@ -44,6 +44,9 @@ header {
 	font-size: 1rem;
 	font-weight: bold;
 }
+.nav-link:hover{
+	color: var(--primaryColour);
+}
 
 .darkModeButton {
 	border-radius: 15px;
