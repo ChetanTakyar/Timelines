@@ -1,7 +1,5 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <link 
@@ -9,7 +7,7 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
         crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./styles/lightmode.css" id="theme-type" />
+    <link rel="stylesheet" href="./styles/lightmode.css" id="theme-type"/>
     <script defer="true" src="/scripts/themingFunctions.js"></script>
     <script defer="true" src="/scripts/staticNavBarColourOnClick.js"></script>
     <title>Timelines</title>
@@ -17,8 +15,8 @@
 <body>
     <header>
         <nav id="navbar" class="navbar navbar-expand-sm bg-dark">
-            <!-- Links -->
             <ul class="navbar-nav">
+                <!-- Navbar Links -->
                 <li class="nav-item">
                     <h1 class="navbar-brand " href="#">Timelines</h1>
                 </li>
@@ -38,12 +36,14 @@
                     <a class="nav-link" href="macOS.html" onclick="changemacOSColourOnClick()">macOS</a>
                 </li>
 
+                <!-- Theme Toggle -->
                 <button class = "darkModeButton" onclick="DarkModeToggle()">
                     Theme Toggle
                 </button>
             </ul>
         </nav>
     </header>
+    <!-- Timeline -->
     <div id="timeline">
         <ul>
             <li class="timeline-container">
@@ -174,11 +174,11 @@
                     <h4>September 2020</h4>
                 </div>
             </li>
+            
             <div style="clear: both;"></div>
         </ul>
     </div>
+
     <button id="scrollToTop">To Top</button>
-    <footer>
-    </footer>
 </body>
 </html>
