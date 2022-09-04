@@ -49,6 +49,10 @@ header {
 	color: var(--primaryColour);
 }
 
+.activeTab{
+	color: var(--primaryColour);
+}
+
 .darkModeButton {
 	border-radius: 15px;
 	margin: 0 30px;
@@ -95,10 +99,6 @@ header {
 	float: right;
 	text-align: left;
 	clear: both;
-}
-
-footer {
-	background-color: var(--headerAndFooterColour);
 }
 
 #scrollToTop button{
