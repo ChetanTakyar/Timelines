@@ -49,6 +49,10 @@ header {
 	color: var(--primaryColour);
 }
 
+.activeTab{
+	color: var(--primaryColour);
+}
+
 .darkModeButton {
 	border-radius: 15px;
 	margin: 0 30px;
@@ -97,10 +101,6 @@ header {
 	clear: both;
 }
 
-footer {
-	background-color: var(--headerAndFooterColour);
-}
-
 #scrollToTop button{
 	display: none;
 	border: none;
@@ -114,8 +114,4 @@ footer {
 	color: white;
 	padding: 15px;
 	cursor: pointer;
-}
-
-.activeTab{
-	color: var(--primaryColour);
 }
