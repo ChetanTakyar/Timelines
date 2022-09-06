@@ -7,9 +7,10 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
         crossorigin="anonymous"/>
-        <link rel="stylesheet" href="./styles/lightmode.css" id="theme-type" />
-        <script defer="true" src="/scripts/themingFunctions.js"></script>
-        <script defer="true" src="/scripts/staticNavBarColourOnClick.js"></script>
+    <link rel="stylesheet" href="./styles/lightmode.css" id="theme-type" />
+    <script defer="true" src="/scripts/themingFunctions.js"></script>
+    <script defer="true" src="/scripts/staticNavBarColourOnClick.js"></script>
+    <script defer="true" src="/scripts/scrollToTop.js"></script>
     <title>Timelines</title>
 </head>
 <body>
@@ -125,6 +126,10 @@
         </ul>
     </div>
 
-    <button id="scrollToTop">To Top</button>
+    <button 
+        id="scrollToTop"
+        onclick="topFunction()">
+        To Top
+    </button>
 </body>
 </html>
