@@ -101,19 +101,22 @@ header {
 	clear: both;
 }
 
-#scrollToTop button{
-	display: none;
-	border: none;
-	outline: none;
+#scrollToTop {
+	/* Layout */
 	bottom: 20px;
-	right: 30px;
+	display: none;
 	margin: 15px;
+	padding: 15px;
+	right: 30px;
 	z-index: 2;
+
+	/* Design */
 	background-color: var(--primaryColour);
+	border: none;
 	border-radius: 15px;
 	color: white;
-	padding: 15px;
 	cursor: pointer;
+	outline: none;
 }
 
 .activeTab{
