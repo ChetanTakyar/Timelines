@@ -1,10 +1,7 @@
 :root {
 	--primaryColour: #38AECC;
 	--backgroundColour: #fff;
-	--accentColour: #dd6e42;
-	/* 89B0AE */
-	/*  */
-	/*  */
+	--navColour: #2f4a55;
 }
 
 body {
@@ -20,19 +17,15 @@ h3 {
 	text-align: center;
 }
 
-header {
-	background-color: var(--headerAndFooterColour);
-}
-
 #navbar {
 	align-items: center;
+	background-color: var(--navColour) !important;
 	display: flex;
 	justify-content: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	background-color: #2f4a55 !important;
 }
 
 .nav-item {
@@ -58,9 +51,14 @@ header {
 }
 
 .darkModeButton {
+	border: none;
 	border-radius: 15px;
 	margin: 0 30px;
-	border: none;
+	outline: none;
+}
+
+.darkModeButton:focus {
+	outline: none;
 }
 
 #timeline {
@@ -121,8 +119,4 @@ header {
 	color: white;
 	cursor: pointer;
 	outline: none;
-}
-
-.activeTab{
-	color: var(--primaryColour);
 }

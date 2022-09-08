@@ -1,8 +1,7 @@
 :root {
 	--primaryColour: #74c6db;
 	--backgroundColour: #183642;
-	--accentColour: #dd6e42;
-	/* 74c6db */
+	--navColour: #11262e;
 }
 
 
@@ -20,19 +19,15 @@ h3 {
 	text-align: center;
 }
 
-header {
-	background-color: var(--headerAndFooterColour);
-}
-
 #navbar {
 	align-items: center;
+	background-color: var(--navColour) !important;
 	display: flex;
 	justify-content: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	background-color: #11262e !important;
 }
 
 .nav-item {
@@ -57,9 +52,14 @@ header {
 }
 
 .darkModeButton {
+	border: none;
 	border-radius: 15px;
 	margin: 0 30px;
-	border: none;
+	outline: none;
+}
+
+.darkModeButton:focus {
+	outline: none;
 }
 
 #timeline {
