@@ -1,8 +1,10 @@
 :root {
-	--primaryColour: #0474dc;
-	--backgroundColour: #292929;
+	--primaryColour: #74c6db;
+	--backgroundColour: #183642;
 	--accentColour: #dd6e42;
+	/* 74c6db */
 }
+
 
 body {
 	background-color: var(--backgroundColour);
@@ -30,6 +32,7 @@ header {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	background-color: #11262e !important;
 }
 
 .nav-item {
