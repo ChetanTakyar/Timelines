@@ -104,10 +104,16 @@ h3 {
 	clear: both;
 }
 
+
 #timeline ul li:nth-child(even) {
 	float: right;
 	text-align: left;
 	clear: both;
+}
+.timeline-time{
+	color: var(--primaryColour);
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 #scrollToTop {
