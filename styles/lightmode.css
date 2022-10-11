@@ -65,6 +65,20 @@ h3 {
 	outline: none;
 }
 
+/* HOME PAGE */
+
+#home-section {
+	/* Layout */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	/* Size */
+	height: 100vh;
+	width: 100vw;
+}
+
 /* CONTENT */
 
 #timeline {
