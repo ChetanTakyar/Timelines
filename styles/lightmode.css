@@ -123,6 +123,12 @@ h3 {
 	clear: both;
 }
 
+.timeline-time{
+	color: var(--primaryColour);
+	font-weight: bold;
+	font-size: 1rem;
+}
+
 #scrollToTop {
 	/* Layout */
 	bottom: 20px;
