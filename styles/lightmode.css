@@ -97,12 +97,12 @@ h3 {
 	background-color: #c5c5c5;
 }
 
-#timeline ul {
+#timeline > ul {
 	margin: 0;
 	padding: 0;
 }
 
-#timeline ul li {
+#timeline > ul > li {
 	line-height: normal;
 	list-style: none;
 	position: relative;
@@ -111,13 +111,13 @@ h3 {
 	box-sizing: border-box;
 }
 
-#timeline ul li:nth-child(odd) {
+#timeline > ul > li:nth-child(odd) {
 	float: left;
 	text-align: right;
 	clear: both;
 }
 
-#timeline ul li:nth-child(even) {
+#timeline > ul > li:nth-child(even) {
 	float: right;
 	text-align: left;
 	clear: both;
