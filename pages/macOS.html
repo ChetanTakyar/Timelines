@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./styles/lightmode.css" id="theme-type"/>
+    <script defer="true" src="/scripts/themingFunctions.js"></script>
+    <script defer="true" src="/scripts/staticNavBarColourOnClick.js"></script>
+    <script defer="true" src="/scripts/scrollToTop.js"></script>
+    <title>Timelines</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark">
+            <ul class="navbar-nav">
+                <!-- Navbar Links -->
+                <li class="nav-item">
+                    <a href="../index.html">
+                        <h1 class="navbar-brand">Timelines</h1>
+                    </a>
+                </li>
+                
+                <li class="nav-item", id="iOSPage">
+                    <a class="nav-link" href="iOS.html">iOS</a>
+                </li>
+                <li class="nav-item", id="iPadOSPage">
+                    <a class="nav-link" href="iPadOS.html">iPadOS</a>
+                </li>
+                <li class="nav-item", id="macOSPage">
+                    <a class="nav-link activeTab" href="macOS.html">macOS</a>
+                </li>
+
+                <!-- Theme Toggle -->
+                <button class = "darkModeButton" onclick="DarkModeToggle()">
+                    Theme Toggle
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <!-- Timeline -->
+    <div id="timeline">
+        <ul>
+            <li class="timeline-container">
+                <div class="timeline-content">
+                    <h3> macOS 13 - Ventura</h3>
+                    <p>
+                        Ventura finally brings two apps from iOS: Weather and Clock. Two long needed apps on the system. A third app, Freeform, is also added. Stage Manager is added to better handle window management. Acting not disimilar to a side dock in the form of windows rather than icons.
+                        <br><br>
+                        Mail adds undo send and send later options to their client, including general optimisations to the app. Spotlight can now return pictures containing queried text thanks to Apple's Live Text.
+                        <br><br>
+                        Safari adds Shared Tab Groups and passkeys for passwordless account management. It also gets a redesigned sidebar. Like Mail, Messages gets the option to undo send and also edit recent Messages.
+                        <br><br>
+                        FaceTime gets Apple's famous Handoff feature, allowing users to pass off their phone calls from one device to another. You can also now use your iPhone as a front facing camera for your Mac through Continuity Camera. Select iPhones still allow it to be used for Desk View.
+                        <br><br>
+                        System Preferences has been renamed to System Settings, with a new UI layout following the design aesthetic of iOS and iPadOS. To reflect these changes, app specific 'Preferences' in their menus have been renames to 'Settings'.
+                        Siri has had a design change, following iPadOS.
+                    </p>
+                </div>
+                <div class="timeline-time"> 
+                    <h4>24th October 2022</h4>
+                </div>
+            </li>
+            <li class="timeline-container">
+                <div class="timeline-content">
+                    <h3> macOS 12 - Monterey</h3>
+                    <p>
+                        Universal Control, which allows a single mouse and ketboard to interact with multiple Macs and iPads and move files quickly between machines with a simple drag and drop.
+                        <br><br>
+                        A new AirPlay option to AirPlay movies, games, photos and more from the iPhone and iPad to the Mac. The Mac can also be used as a speaker for multiroom audio.
+                        <br><br>
+                        An optional new tab design for Safari that better blends into the background and also Tab Groups to make it easy to switch betweeen different tasks without losing open tabs. These are synced across your devices and can be shared.
+                        <br><br>
+                        FaceTime supports spatial audio so voices sound like they're coming from visually. Voice Isolation cuts out background noise. There's also a Wide Spectrum sound mode for when there are multiple callers in one room. Portrait mode blurs the background behind you like on the iPhone camera.
+                        <br><br>
+                        SharePlay allows users to watch/listen to movies, TV and music, and share their screen in real time from FaceTime. Support is also available for third party apps.
+                        <br><br>
+                        Shared With You in Messages keeps track of content people have sent you, saving it in Photos, Safari, Podcasts, News and Apple TV
+                        <br><br>
+                        Shortcuts comes to the Mac from iOS/iPadOS, allowing you to use all your current Shortcuts on macOS. Apple has designed a gallery of pre-built shortcut options, and the Shortcuts app is integrated throughout macOS for running shortcuts from the menu bar, Finder, Spotlight, Siri, and more.
+                        <br><br>
+                        Focus, also available on iOS, is designed to help you stay on task with modes for Work, Personal Life, and more, plus customizable options. Focus basically filters out notifications unrelated to your current activity, and lets people know you're unavailable. Focus set on one device syncs across all devices.
+                        <br><br>
+                        Notes adds a Quick Note option for jotting down notes in any app or while visiting any website, and Quick Note supports links from various apps. Notes has new collaborative features with mentions, an Activity View with edit history, and tags for organization. The Maps app has an interactive globe that can be used to explore different locations on Earth.
+                        <br><br>
+                        With Live Text, Macs use on-device machine learning to detect text in photos, which can be copy-pasted or otherwise interacted with just like typed text. Visual Lookup uses machine learning to provide details on animals, art, landmarks, plants, and more in photos, with these two features available across macOS.
+                        <br><br>
+                        Privacy features such as Mail Privacy Protection to prevent emails from using tracking pixels, and the Mac recording indicator now lets you know if a Mac app is using the microphone.
+                        <br><br>
+                        On M1 Macs, the third-generation Airpods, AirPods Pro, and AirPods Max offer Spatial Audio, and there are new Accessibility options. Note that there are multiple macOS Monterey features limited to M1 Macs, such as Live Text, Portrait Mode for FaceTime, detailed Maps, on-device keyboard dictation, and unlimited keyboard dictation.
+                    </p>
+                </div>
+                <div class="timeline-time"> 
+                    <h4>25th October 2021</h4>
+                </div>
+            </li>
+            <li class="timeline-container">
+                <div class="timeline-content">
+                    <div class="timeline-content">
+                        <h3> macOS 11 - Big Sur</h3>
+                        <p>
+                            macOS Big Sur refreshed the design of the UI in a big way. Such changes included the addition of iOS icons, a redesigned control center and tweaks to the colour palettes. Also for the first time, the main wallpaper was an abstract one versus the landscape pictures of the past.
+                            <br><br>
+                            Compared to iOS, the new macOS icons include more shading and highlights to give more of a three dimensional appearance.
+                            <br><br>
+                            The update to Control Center brings us a visually similar experience to that of the Control Center on iPadOS, with quick shortcuts to WiFi, Bluetooth and so on, which can also be controlled in Control Center without opening the settings.
+                            <br><br>
+                            The Notification Center was completely redesigned to match the aesthetic of the iOS widget page. The widgets are now clearer, cleaner and more powerful than they were before and the notifications group up.
+                            <br><br>
+                            This was also the first update to support Apple Silicon (ARM64), starting with the M1 processor. Any software that has not been ported to work on Apple's ARM processors are able to be run on Rosetta 2, a translation layer to allow made for Intel software to run natively. Performance on said apps and games were astronomically better than expected. They also introduced Universal 2 which allows developers to package their apps to run natively on ARM and x86 processors. This update also means that ARM Macs can now run supported iPad apps. 
+                            <br><br>
+                            Time Machine was updated to require encryption, where it was previously optional for local disks. However, network disks do not require encryption but are given the option. It is also no longer possible to restore the whole system with a Time Machine backup as the signed system volume is no longer backed up.
+                        </p>
+                    </div>
+                    <div class="timeline-time">
+                        <h4>September 2020</h4>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-container">
+                <div class="timeline-content">
+                    <h3> macOS 10.15 - Catalina</h3>
+                    <p>
+                        Catalina was the first version of macOS to support only 64-bit applications. It is also the last version to include the major version number of 10.
+                        <br><br>
+                        iTunes was officially retired in this update, with the features of iTunes being split across four apps, three of which new. Finder, Music, Podcasts and TV.
+                    </p>
+                </div>
+                <div class="timeline-time">
+                    <h4>October 2019</h4>
+                </div>
+            </li>
+            <li class="timeline-container">
+                <div class="timeline-content">
+                    <h3> macOS 10.14 - Mojave</h3>
+                    <p>
+                        macOS Mojave was introduced at the 2018 Worldwide Developers Conference. Inspired by the desert at night, macOS Mojave is the first Mac update in several years not to use a mountain-themed name, with its new moniker representing the visual changes made to the software.
+                        <br></br>
+                        The standout feature in macOS Mojave is a system-wide Dark Mode, which extends beyond just the dock and the menu bar to full windows and apps, with native apps like Mail, Calendar, iTunes, Xcode, and more adopting the dark theme. Dark Mode is, of course, an optional feature, so users who prefer a lighter look can continue to use the light mode.
+                        <br></br>
+                        A Dynamic Desktop option introduces wallpapers that subtly change throughout the day, while Desktop Stacks organize all your desktop files into neat piles arranged by type, date, or tag. Finder has been revamped with a Gallery View for previewing files one by one, and a Finder Sidebar offers up file information at a glance.
+                        <br></br>
+                        Contextual, customizable Quick Actions within Finder let you interact with files and do things like rotate photos or edit files without leaving the Finder interface, and a revamped Quick Look view integrates Markup, providing another way to make simple, quick edits to your files.
+                        <br></br>
+                        Screenshots in macOS Mojave get an iOS-style overhaul, putting Markup options and a variety of screen capture tools right at your fingertips. With the redesigned screenshot interface, screen recording content on your Mac is simpler than ever, and Continuity Camera lets you import photos and document scans captured with your iPhone right into macOS.
+                        <br></br>
+                        Several iOS apps are available on the Mac as part of a multi-year project Apple is working on to make it easier to port iOS apps to macOS. Apple News, Stocks, Home, and Voice Memos are now available in macOS Mojave as the first step of this initiative. Group FaceTime, an iOS 12 feature, is also available in Mojave, with FaceTime calls that now support up to 32 people.
+                    </p>
+                </div>
+                <div class="timeline-time"> 
+                    <h4>24th September 2018</h4>
+                </div>
+            </li>
+
+            <div style="clear: both;"></div>
+        </ul>
+    </div>
+
+    <button 
+        id="scrollToTop"
+        onclick="topFunction()">
+        To Top
+    </button>
+</body>
+</html>
