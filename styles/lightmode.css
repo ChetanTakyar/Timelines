@@ -135,6 +135,7 @@ h3 {
 	display: none;
 	margin: 15px;
 	padding: 15px;
+	position: fixed;
 	right: 30px;
 	z-index: 2;
 
